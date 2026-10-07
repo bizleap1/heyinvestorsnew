@@ -67,6 +67,7 @@ export default function BrandIntroSection() {
                 src="/11.png"
                 alt="Plotted enclave development by Hey Investor in Nagpur"
                 fill
+                quality={90}
                 sizes="(max-width: 1024px) 100vw, 50vw"
                 className="object-cover transition-transform duration-1000 hover:scale-105"
               />

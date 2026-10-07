@@ -72,6 +72,8 @@ export default function WhyHeyInvestor() {
                       src={feature.image}
                       alt={feature.title}
                       fill
+                      quality={90}
+                      sizes="(max-width: 768px) 50vw, 25vw"
                       className="object-cover transition-transform duration-500 group-hover:scale-105"
                     />
                     {/* Subtle Gradient Overlay */}

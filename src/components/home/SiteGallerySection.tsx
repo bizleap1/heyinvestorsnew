@@ -67,6 +67,7 @@ export default function SiteGallerySection() {
                 src={item.src}
                 alt={item.title}
                 fill
+                quality={90}
                 sizes="(max-width: 1024px) 100vw, 50vw"
                 className="object-cover transition-transform duration-1000 ease-out group-hover:scale-105"
               />

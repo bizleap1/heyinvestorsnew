@@ -117,6 +117,7 @@ export default function HeroSection() {
             alt={`Nagpur Aerial Plotted Development ${index + 1}`}
             fill
             priority={index === 0}
+            quality={90}
             className={`object-cover ${
               src.includes('slider1') || src.includes('slider2') || src.includes('slider4') || src.includes('slider5') ? 'object-[85%_center] sm:object-right' : 'object-center'
             } transition-opacity duration-1000 ease-in-out ${
